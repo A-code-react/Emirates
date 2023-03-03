@@ -1,0 +1,51 @@
+.navigation-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-menu li{
+    margin: 0px 20px;
+}
+
+.navigation-menu li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.search li a{
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.Mobile_navigation li{
+  
+    margin-top: 20px;
+}
+.Mobile_navigation li a{
+  
+   text-decoration: none;
+   font-size: 1.4rem;
+   color: #000;
+}
+.button2{
+    height: 50px;
+    width: 200px;
+    background: blueviolet;
+    color: aqua;
+    font-size: 22px;
+}
+@media screen and (max-width: 700px) {
+.travelIcon{
+   
+        display: hidden;
+}}
+.search{
+    list-style: none;
+
+}
+.search li {
+    display: inline;
+    margin: 2px;
+}
